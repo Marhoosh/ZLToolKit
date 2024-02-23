@@ -8,7 +8,7 @@
 - 基于C++11开发，避免使用裸指针，代码稳定可靠；同时跨平台移植简单方便，代码清晰简洁。
 - 使用epoll+线程池+异步网络IO模式开发，并发性能优越。
 - 代码经过大量的稳定性、性能测试，可满足商用服务器项目。
-- 支持linux、macos、ios、android、windows平台
+- 支持linux、macos、ios、android、windows平台  .....
 - 了解更多:[ZLMediaKit](https://github.com/ZLMediaKit/ZLMediaKit)
 
 ## 特性
@@ -42,7 +42,7 @@
   ```
   cd ZLToolKit
   ./build_for_linux.sh
-  ```  
+  ```
   
 ## 编译(macOS)
 - 我的编译环境
@@ -55,7 +55,7 @@
   cd ZLToolKit
   ./build_for_mac.sh
   ```
-	 
+	
 ## 编译(iOS)
 - 编译环境:`请参考macOS的编译指导。`
 - 编译
@@ -119,12 +119,11 @@
 该库经过作者严格的valgrind测试，长时间大负荷的测试；作者也使用该库进行了多个线上项目的开发。实践证明该库稳定性很好；可以无看门狗脚本的方式连续运行几个月。
 
  - 在windows下编译很多错误？
- 
+
  由于本项目主体代码在macOS/linux下开发，部分源码采用的是无bom头的UTF-8编码；由于windows对于utf-8支持不甚友好，所以如果发现编译错误请先尝试添加bom头再编译。
 
 
 ## 联系方式
 - 邮箱：<1213642868@qq.com>（本项目相关或网络编程相关问题请走issue流程，否则恕不邮件答复）
 - QQ群：542509000
-
 
