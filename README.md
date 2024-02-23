@@ -8,7 +8,7 @@
 - 基于C++11开发，避免使用裸指针，代码稳定可靠；同时跨平台移植简单方便，代码清晰简洁。
 - 使用epoll+线程池+异步网络IO模式开发，并发性能优越。
 - 代码经过大量的稳定性、性能测试，可满足商用服务器项目。
-- 支持linux、macos、ios、android、windows平台  .....
+- 支持linux、macos、ios、android、windows平台  
 - 了解更多:[ZLMediaKit](https://github.com/ZLMediaKit/ZLMediaKit)
 
 ## 特性
